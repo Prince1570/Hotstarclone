@@ -1,0 +1,322 @@
+#search{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+#color{
+    background-color: #141b29;
+}
+#logo{
+    height: 60px;
+    margin-left:50px;
+    margin-top: -10px;
+    width: 150px;
+    background: transparent;
+}
+#kids a{
+    color: yellow;
+    font-weight: bolder;
+}
+#TV a{
+    color: white;
+    font-weight: bolder;
+}
+#Movies a{
+    color: white;
+    font-weight: bolder;
+}
+#Sports #use{
+    color: white;
+}
+#Disnep a{
+    color: white;
+    font-weight: bolder;
+}
+
+.d-block{
+    height:300px;
+    width:50%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+#subscribe{
+    background-color: blue;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+@media(max-width:599px){
+    .d-block{
+        height:250px;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    .btn btn-outline-success{
+        display: block;
+    }
+    .carousel-caption{
+        display: block;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .random{
+        height: 250px;
+    }
+
+}
+.album py-5 bg-light{
+    background-color: #141b29;
+}
+.album bg-light{
+    margin-right: -100%;
+}
+
+
+#continue{
+    color: white;
+    margin-top: 0px;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    height: 300px;
+    
+}
+.random{
+    margin-left: 0px;
+}
+.size{
+    height: 300px;
+    margin-top: 0px;
+}
+body{
+    background-color: #141b29;
+}
+
+@media(max-width:768px){
+    .d-block{
+        width: 100%;
+    }
+    .size{
+        height: 250px;
+    }
+    .container1{
+        height: 250px;
+        border-radius: 5px;
+        position: relative;
+        transform: scale(.4);
+        transition: .3s;
+        margin: 0px 0px;
+    }
+    .dets{
+        width:100%;
+        height: 0px;
+        margin: 0px 0px;
+        background: linear-gradient(to bottom,#993b1e00,#1d0904,75%);
+        color: white;
+        bottom: 10;
+        top: 20;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0px;
+        border-radius: 10px;
+        opacity: 0;
+        transition: .5s;
+    }
+    .container1:hover{
+        transform: scale(0.5);
+        margin: 0px 0px;
+        height: 250px;
+    }
+    .dets h4{
+        font-size: 12px;
+        padding: 2px 0px;
+    }
+    
+    .dets h5{
+        font-size: 8px;
+        word-spacing: 1px;
+        margin-bottom: 0px;
+        padding: 2px 0px;
+        font-weight: 200;
+    }
+    
+    .dets p{
+        font-size: 8px;
+        font-weight: 200;
+        margin-bottom: 0px;
+        opacity: .8;
+    }
+    
+    .dets button{
+        width: 100%;
+        margin-top: 5px;
+        font-size: 10px;
+        padding: 5px 6px;
+        color: white;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        text-align: left;
+        border-radius: 5px;
+        font-weight: 300;
+        opacity: .8;
+        transition: .2s;
+    }
+    
+    .dets button a{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 400;
+        margin-left: 5px; 
+    }
+    
+    
+ 
+}
+
+
+
+
+.size{
+    cursor: pointer;
+}
+
+.container1{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+    transform: scale(0.9);
+    transition: .3s;
+    margin: 0px 10px;
+}
+.container1:hover{
+    transform: scale(1.0);
+    z-index: 0;
+    margin: 0px 50px;
+    height: 300px;
+}
+
+.dets{
+    width: 80%;
+    height: 0px;
+    margin: 0px 30px;
+    background: linear-gradient(to bottom,#993b1e00,#1d0904,75%);
+    color: white;
+    bottom: 30;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: .5s;
+}
+.container1:hover .dets{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.dets h4{
+    font-size: 22px;
+    padding: 2px 0px;
+}
+
+.dets h5{
+    font-size: 14px;
+    word-spacing: 1px;
+    margin-bottom: 2px;
+    padding: 2px 0px;
+    font-weight: 600;
+}
+
+.dets p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    opacity: .8;
+}
+
+.dets button{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    text-align: left;
+    border-radius: 5px;
+    font-weight: 500;
+    opacity: .8;
+    transition: .2s;
+}
+
+.dets button a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px; 
+}
+
+.dets button:hover{
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.reserves{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    color: wheat;
+}
+
+.rights{
+    color: wheat;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    opacity: .8;
+    margin: 20px 250px;
+}
+
+.app{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download_button{
+    background-color: blue;
+}
+
+@media(max-width:599px){
+    .rights{
+        font-size: 15px;
+        margin: 10px 30px;
+    }
+}
